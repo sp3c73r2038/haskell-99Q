@@ -1,0 +1,6 @@
+*.o
+*.hi
+Main
+/.stack-work/
+/dist
+/.cabal-sandbox

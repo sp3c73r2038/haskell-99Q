@@ -1,0 +1,26 @@
+source: https://wiki.haskell.org/99_questions
+
+This is part of Ninety-Nine Haskell Problems, based on Ninety-Nine Prolog
+ Problems and Ninety-Nine Lisp Problems.
+
+== Solution ==
+
+All solutions are in QXX/QXX.hs, which XX is the question number.
+
+== How to build and run ==
+
+please install GHC (or haskell-platform) and stack (recommended).
+
+  $ stack setup
+  $ stack build
+  $ stack install
+
+to run specific solution, try:
+
+  $ stack exec 99Qxx
+
+or if you prefer plain ghc command.
+
+  $ cd QXX
+  $ ghc Main.hs
+  $ ./Main
